@@ -14,8 +14,8 @@ import { appVersion, downloadIsPlaceholder, downloadUrl } from '../config'
             <li>Windows x64</li>
           </ul>
           <p class="download-notes">
-            壳会探测并自启本机后端（默认 2059）<br />
-            当前可能提示「未知发布者」（未做代码签名）
+            面向 Windows 的桌面客户端<br />
+            无需安装，下载后双击即可使用
           </p>
           <p class="version">{{ appVersion }}</p>
         </div>
