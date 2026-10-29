@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import BrandMark from './BrandMark.vue'
 
-/** 静态桌面窗口示意：对话气泡 + 日/周报草稿。不嵌入 Electron，也不请求本机服务。 */
+/** 静态桌面窗口示意：对话与日/周报草稿。仅作展示，不嵌入 Electron 桌面端。 */
 </script>
 
 <template>
