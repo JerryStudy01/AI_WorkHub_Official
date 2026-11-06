@@ -2,7 +2,7 @@
 
 AI WorkHub 的官方介绍与下载页。产品本体是 Electron 桌面端（Windows 便携包）。本站只做介绍和下载，**本站不是产品 Web 应用**。
 
-页面结构：顶栏、Hero、两条核心能力（对话、日/周报总结）、Windows 便携包下载区、页脚。
+页面结构：顶栏、首屏、两条核心能力（对话、日/周报总结）、Windows 便携包下载区、页脚。
 
 ## 本地运行
 
@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-开发服务器端口是 **4327**：<http://127.0.0.1:4327/>
+构建并预览静态站点：
 
 ```bash
 npm run build
@@ -42,7 +42,7 @@ cp .env.example .env
 3. 把 `VITE_APP_VERSION` 改成对应版本。
 4. 重新执行 `npm run build`，再部署 `dist/`。
 
-改环境变量后需要重启 `npm run dev`，或重新 build。保持 `#` 直到有真实产物，页面上不放假下载链接。
+改环境变量后需要重启 `npm run dev`，或重新 build。保持 `#` 直到有真实产物，页面上不放置无效下载链接。
 
 ## 页脚
 
@@ -60,4 +60,4 @@ cp .env.example .env
 
 ## 和产品仓的关系
 
-产品继续在 [JerryStudy01/AI_WorkHub](https://github.com/JerryStudy01/AI_WorkHub) 开发。本仓只链到便携包产物，不包含 Electron 壳、后端，也不暴露产品里的对话或写报页面。
+产品继续在 [JerryStudy01/AI_WorkHub](https://github.com/JerryStudy01/AI_WorkHub) 开发。本仓只提供介绍与 Windows 便携包下载，不包含桌面端程序本身，也不提供产品内的对话或写报页面。
